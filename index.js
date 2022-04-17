@@ -1,6 +1,6 @@
 // ddmmyyyy
-const ngaySinhInput = '21031984';
-const tenInput = 'QUACH HA CHAN AN';
+const ngaySinhInput = '05011982';
+const tenInput = 'TRAN THI PHOI';
 
 let fullBirth = ngaySinhInput.split('').map((n) => Number(n));
 const ngaySinh = [fullBirth[0], fullBirth[1]];
@@ -150,27 +150,54 @@ const lyGiaiThangCaNhan = (n) => {
     }
 };
 
-// Lý giải tháng cá nhân
+// Lý giải Năm cá nhân
+// https://sohocmattroi.com/than-so-hoc-so-4/
 const lyGiaiNamCaNhan = (n) => {
     switch (n) {
         case 1:
-            return 'Năm số 1: Sự bắt đầu.\nNăm đầu tiên trong chu kỳ 9 năm nhân số học sẽ là năm của sự sáng tạo, gieo hạt cho những sự kiện mới, cơ hội mới và tràn đầy tự tin. Cũng là năm chúng ta lên kế hoạch cho những mục tiêu mới.\nĐây là một năm của những hành động phát triển cá nhân mạnh mẽ. Sức mạnh của năm này thúc đẩy chúng ta dám trở nên đặc biệt và phát triển lòng tự tin.\nĐây cũng là một năm phù hợp để chúng ta phá bỏ những thói quen cũ. Bên cạnh đó việc hình thành lối sống mới chắc chắn đòi hỏi ta có sự kiên trì cao độ. https://sohocmattroi.com/than-so-hoc-so-1/';
+            return 'Năm số 1: Sự bắt đầu.\nNăm đầu tiên trong chu kỳ 9 năm nhân số học sẽ là năm của sự sáng tạo, gieo hạt cho những sự kiện mới, cơ hội mới và tràn đầy tự tin. Cũng là năm chúng ta lên kế hoạch cho những mục tiêu mới.\nĐây là một năm của những hành động phát triển cá nhân mạnh mẽ. Sức mạnh của năm này thúc đẩy chúng ta dám trở nên đặc biệt và phát triển lòng tự tin.\nĐây cũng là một năm phù hợp để chúng ta phá bỏ những thói quen cũ. Bên cạnh đó việc hình thành lối sống mới chắc chắn đòi hỏi ta có sự kiên trì cao độ. ';
         case 2:
-            return 'Năm số 2: Sự cân bằng, tình yêu thương.\nNăm số 2 của chu kỳ 9 năm thần số học là thời điểm bạn nên đặt sự ưu tiên dành cho bản thân và các mối quan hệ xung quanh. Bạn nên dành nhiều thời gian quan tâm cho gia đình và những người thân yêu dưới mọi hình thức.\nĐây là một năm diễn biến chậm, không phải là năm của sự thay đổi. Năm này đòi hỏi bạn phải có sự kiên trì, nhẫn nại. Có thể xem năm nay được thiết kế cho bạn nghỉ ngơi và phát triển về nhận thức tâm linh. https://sohocmattroi.com/than-so-hoc-so-2/';
+            return 'Năm số 2: Sự cân bằng, tình yêu thương.\nNăm số 2 của chu kỳ 9 năm thần số học là thời điểm bạn nên đặt sự ưu tiên dành cho bản thân và các mối quan hệ xung quanh. Bạn nên dành nhiều thời gian quan tâm cho gia đình và những người thân yêu dưới mọi hình thức.\nĐây là một năm diễn biến chậm, không phải là năm của sự thay đổi. Năm này đòi hỏi bạn phải có sự kiên trì, nhẫn nại. Có thể xem năm nay được thiết kế cho bạn nghỉ ngơi và phát triển về nhận thức tâm linh.';
         case 3:
-            return 'Năm số 3: Truyền cảm hứng, phát triển bản thân.\nKhi bước vào năm số 3 trong chu kỳ 9 năm nhân số học, bạn cần mở rộng tầm mắt, trí não để phát triển bản thân. Bạn có thể tham gia một khóa học, hay một chuyến đi nào đó. Và điều quan trọng, bạn hãy nhận thức rằng đây là năm phát triển trí não.\nĐây cũng là năm chúng ta nên cân bằng cuộc sống. Dành thời gian cho những niềm vui, các buổi tụ tập cùng bạn bè để tận hưởng cuộc sống. Tuy nhiên đây cũng là năm nhạy cảm. Sẽ chứa đựng những cảm xúc bị tổn thương và nỗi nghi ngờ sẽ xuất hiện. https://toiyeulamdep.com/than-so-hoc-so-3/';
+            return 'Năm số 3: Truyền cảm hứng, phát triển bản thân.\nKhi bước vào năm số 3 trong chu kỳ 9 năm nhân số học, bạn cần mở rộng tầm mắt, trí não để phát triển bản thân. Bạn có thể tham gia một khóa học, hay một chuyến đi nào đó. Và điều quan trọng, bạn hãy nhận thức rằng đây là năm phát triển trí não.\nĐây cũng là năm chúng ta nên cân bằng cuộc sống. Dành thời gian cho những niềm vui, các buổi tụ tập cùng bạn bè để tận hưởng cuộc sống. Tuy nhiên đây cũng là năm nhạy cảm. Sẽ chứa đựng những cảm xúc bị tổn thương và nỗi nghi ngờ sẽ xuất hiện. ';
         case 4:
-            return 'Năm số 4: Củng cố nội lực (điểm trũng lần 1 trong chu kỳ 9 năm nhân số học).\nĐây là năm trũng đầu tiên trong chu kỳ 9 năm của đời người. Bạn cần nghỉ ngơi và duy trì sự ổn định sẽ là điều kiện tốt giúp củng cố lại năng lượng cho chu kỳ 5 năm tiếp theo. Các yếu tố về thể chất, tiền tài sẽ được xem là chạm đáy trong năm này.\nĐây được xem là một năm để bạn nghiêm túc trau dồi kỹ năng và cũng cố nội lực nhằm tạo dựng nền tảng vững chắc cho công việc, cho các mối quan hệ, sức khỏe hay gia đình của bạn. https://sohocmattroi.com/than-so-hoc-so-4/';
+            return 'Năm số 4: Củng cố nội lực (điểm trũng lần 1 trong chu kỳ 9 năm nhân số học).\nĐây là năm trũng đầu tiên trong chu kỳ 9 năm của đời người. Bạn cần nghỉ ngơi và duy trì sự ổn định sẽ là điều kiện tốt giúp củng cố lại năng lượng cho chu kỳ 5 năm tiếp theo. Các yếu tố về thể chất, tiền tài sẽ được xem là chạm đáy trong năm này.\nĐây được xem là một năm để bạn nghiêm túc trau dồi kỹ năng và cũng cố nội lực nhằm tạo dựng nền tảng vững chắc cho công việc, cho các mối quan hệ, sức khỏe hay gia đình của bạn. ';
         case 5:
-            return 'Năm số 5: Sự phiêu lưu và tự do.\nĐây là năm bắt đầu với một sự bùng nổ, nhộn nhịp với nhiều trải nghiệm và niềm vui, là năm mà năng lượng tự do được kích hoạt rõ nét nhất. Năm nay có rất nhiều cuộc vui nhưng mục đích là để rèn luyện tính kỷ luật của bạn.\nĐây là năm không có gì là chắc chắn, không có kế hoạch và luôn có cảm giác hồi hộp nhất định. Đây không phải là thời điểm mà bạn nên lựa chọn để cam kết lâu dài, vì còn rất nhiều thứ thú vị để bạn thử.\nNăm số 5 trong chu kỳ 9 năm thần số học mang đến rất nhiều cơ hội để đối mặt với nỗi sợ của bản thân. Giúp bạn loại bỏ những hạn chế và khơi dậy cảm giác phiêu lưu. https://sohocmattroi.com/than-so-hoc-so-5/';
+            return 'Năm số 5: Sự phiêu lưu và tự do.\nĐây là năm bắt đầu với một sự bùng nổ, nhộn nhịp với nhiều trải nghiệm và niềm vui, là năm mà năng lượng tự do được kích hoạt rõ nét nhất. Năm nay có rất nhiều cuộc vui nhưng mục đích là để rèn luyện tính kỷ luật của bạn.\nĐây là năm không có gì là chắc chắn, không có kế hoạch và luôn có cảm giác hồi hộp nhất định. Đây không phải là thời điểm mà bạn nên lựa chọn để cam kết lâu dài, vì còn rất nhiều thứ thú vị để bạn thử.\nNăm số 5 trong chu kỳ 9 năm thần số học mang đến rất nhiều cơ hội để đối mặt với nỗi sợ của bản thân. Giúp bạn loại bỏ những hạn chế và khơi dậy cảm giác phiêu lưu. ';
         case 6:
-            return 'Năm số 6: Sự yêu thương.\nKhi bước qua năm này, bạn cần tập trung năng lượng yêu thương cho gia đình và các mối quan hệ cá nhân nhiều hơn. Bạn cần quay về tập trung thể hiện tình cảm với gia đình của mình.\nTrong năm nay, bạn sẽ cần cân bằng giữa sự nghiệp và trách nhiệm trong gia đình. Và tìm ra điểm trung gian giữa việc thể hiện sự quan tâm cho người khác và tôn vinh chính bạn.\nĐây cũng là thời điểm vô cùng thuận lợi để những người độc thân tìm kiếm sự lãng mạn vì tình yêu sẽ đến với bạn. Đây cũng là một năm để tập trung vào sức khỏe của bạn. Thực hiện cam kết, kết hôn hoặc bắt đầu một gia đình.\nBằng cách tôn trọng trách nhiệm của bạn và ở đó cho những người cần bạn có thể biến điều này thành một năm rất hiệu quả. https://sohocmattroi.com/than-so-hoc-so-6/';
+            return 'Năm số 6: Sự yêu thương.\nKhi bước qua năm này, bạn cần tập trung năng lượng yêu thương cho gia đình và các mối quan hệ cá nhân nhiều hơn. Bạn cần quay về tập trung thể hiện tình cảm với gia đình của mình.\nTrong năm nay, bạn sẽ cần cân bằng giữa sự nghiệp và trách nhiệm trong gia đình. Và tìm ra điểm trung gian giữa việc thể hiện sự quan tâm cho người khác và tôn vinh chính bạn.\nĐây cũng là thời điểm vô cùng thuận lợi để những người độc thân tìm kiếm sự lãng mạn vì tình yêu sẽ đến với bạn. Đây cũng là một năm để tập trung vào sức khỏe của bạn. Thực hiện cam kết, kết hôn hoặc bắt đầu một gia đình.\nBằng cách tôn trọng trách nhiệm của bạn và ở đó cho những người cần bạn có thể biến điều này thành một năm rất hiệu quả. ';
         case 7:
-            return 'Năm số 7: Nội tâm, suy ngẫm.\nĐây là năm thứ 2 trong chu kỳ 9 năm thần số học rơi vào điểm trũng sau năm số 4. Đây cũng là giai đoạn gần kết thúc chu kỳ 9 năm của đời người. Chính vì thế giai đoạn này bạn không thể tập trung vào công việc hay đạt được những thành tựu gì về tài chính.\nNăm này được xem là thời điểm thích hợp để bạn phát triển tâm linh, chiêm nghiệm. Bạn sẽ cảm thấy đây là thời điểm mà niềm tin và sự tin tưởng của mình đang được thử thách.\nNăm số 7 được xem là năm trũng, giống như năm số 4. Bạn cần tập trung vào bản thân nhiều hơn, phát triển bản thân. Không nên hướng ra ngoài và có những sự thay đổi quá lớn.\nNăm này đầy rẫy việc buông bỏ và mất mát. Có thể là các vấn đề về sức khỏe, tình cảm hay sự kiện khác. https://toiyeulamdep.com/than-so-hoc-so-7/';
+            return 'Năm số 7: Nội tâm, suy ngẫm.\nĐây là năm thứ 2 trong chu kỳ 9 năm thần số học rơi vào điểm trũng sau năm số 4. Đây cũng là giai đoạn gần kết thúc chu kỳ 9 năm của đời người. Chính vì thế giai đoạn này bạn không thể tập trung vào công việc hay đạt được những thành tựu gì về tài chính.\nNăm này được xem là thời điểm thích hợp để bạn phát triển tâm linh, chiêm nghiệm. Bạn sẽ cảm thấy đây là thời điểm mà niềm tin và sự tin tưởng của mình đang được thử thách.\nNăm số 7 được xem là năm trũng, giống như năm số 4. Bạn cần tập trung vào bản thân nhiều hơn, phát triển bản thân. Không nên hướng ra ngoài và có những sự thay đổi quá lớn.\nNăm này đầy rẫy việc buông bỏ và mất mát. Có thể là các vấn đề về sức khỏe, tình cảm hay sự kiện khác. ';
         case 8:
-            return 'Năm số 8: Trí tuệ và quyền lực.\nBước qua được năm trũng cuối cùng trong chu kỳ. Đây sẽ là năm mang lại cơ hội cho những người mong muốn gặt hái được thành quả trong 7 năm qua. Sau khoảng thời gian phát triển bản thân, đã đến lúc bạn bước ra ngoài và gặt hái thành quả.\nNăm số 8 là năm tốt nhất cho sự nghiệp kinh doanh cũng như tài chính cá nhân của bạn. Bạn sẽ đạt đến đỉnh cao trong sự nghiệp của mình với nhiều lời mời và cơ hội cực kỳ hấp dẫn. Có thể xem đây là năm phản ánh lại kết quả mà bạn đã trải qua. https://sohocmattroi.com/than-so-hoc-so-8/';
+            return 'Năm số 8: Trí tuệ và quyền lực.\nBước qua được năm trũng cuối cùng trong chu kỳ. Đây sẽ là năm mang lại cơ hội cho những người mong muốn gặt hái được thành quả trong 7 năm qua. Sau khoảng thời gian phát triển bản thân, đã đến lúc bạn bước ra ngoài và gặt hái thành quả.\nNăm số 8 là năm tốt nhất cho sự nghiệp kinh doanh cũng như tài chính cá nhân của bạn. Bạn sẽ đạt đến đỉnh cao trong sự nghiệp của mình với nhiều lời mời và cơ hội cực kỳ hấp dẫn. Có thể xem đây là năm phản ánh lại kết quả mà bạn đã trải qua. ';
         case 9:
-            return 'Năm số 9: Kết thúc chu kỳ.\nĐây là năm cuối của chu kỳ 9 năm thần số học khép lại một chu kỳ cũ và mở ra một chu kỳ mới. Thời điểm này bạn có thể đưa ra một quyết định nào đó cho một công việc hoặc một mối quan hệ.\nNhững thay đổi này rất đa dạng có thể như chuyển nhà, thay đổi môi trường sống. Thay đổi công việc, hoặc ngay cả việc kết thúc một mối quan hệ. Không phải kết thúc lúc nào cũng buồn.\nNăm thứ 9 là năm của kết thúc, của sự hoàn tất mọi việc. Đây là lúc để bạn nhìn lại và hiểu rằng tất cả mọi chu kỳ đều có điểm bắt đầu và điểm kết thúc. Và nó sẽ bắt đầu một chu kỳ mới.\nNhững níu kéo sẽ không còn có ý nghĩa gì nữa khi mọi thứ đã qua đi. Hãy đón nhận chu kỳ mới và biết ơn những cơ hội của bạn. https://sohocmattroi.com/than-so-hoc-so-9/';
+            return 'Năm số 9: Kết thúc chu kỳ.\nĐây là năm cuối của chu kỳ 9 năm thần số học khép lại một chu kỳ cũ và mở ra một chu kỳ mới. Thời điểm này bạn có thể đưa ra một quyết định nào đó cho một công việc hoặc một mối quan hệ.\nNhững thay đổi này rất đa dạng có thể như chuyển nhà, thay đổi môi trường sống. Thay đổi công việc, hoặc ngay cả việc kết thúc một mối quan hệ. Không phải kết thúc lúc nào cũng buồn.\nNăm thứ 9 là năm của kết thúc, của sự hoàn tất mọi việc. Đây là lúc để bạn nhìn lại và hiểu rằng tất cả mọi chu kỳ đều có điểm bắt đầu và điểm kết thúc. Và nó sẽ bắt đầu một chu kỳ mới.\nNhững níu kéo sẽ không còn có ý nghĩa gì nữa khi mọi thứ đã qua đi. Hãy đón nhận chu kỳ mới và biết ơn những cơ hội của bạn. ';
+        default:
+            break;
+    }
+};
+
+// Lý giải ngày cá nhân
+const lyGiaiNgayCaNhan = (n) => {
+    switch (n) {
+        case 1:
+            return 'Đây là ngày của những ý tưởng tuyệt vời, là ngày để bắt đầu một điều gì đó. Tập trung vào bản thân, nhưng đừng ích kỷ hay bướng bỉnh. Đã đến lúc phải dứt khoát, tham vọng và tự tin hành động.';
+        case 2:
+            return 'Hãy kiên nhẫn và tập trung vào chi tiết. Làm việc dựa trên các mối quan hệ và hợp tác. Đây là một ngày nhẹ nhàng. Bạn sẽ cảm thấy nhạy cảm và có thể có những giấc mơ sống động.';
+        case 3:
+            return 'Hãy sáng tạo, dành thời gian cho bạn bè và giao tiếp. Chấp nhận bất kỳ lời mời nào bạn nhận được. Thực hành lòng biết ơn. Tránh hành vi đặc quyền. Đây là một ngày may mắn!';
+        case 4:
+            return 'Học cách có tổ chức, quy củ. Chú trọng đến các khỏe. Tránh sự cứng nhắc, kín kẽ hoặc kiểm soát. Đừng trì hoãn. Tập trung vào chi tiết để tiến gần hơn đến mục tiêu của bạn. Làm theo các quy tắc nếu không bạn sẽ phải đối mặt với hậu quả.';
+        case 5:
+            return 'Hãy thay đổi, mở rộng và thúc đẩy các mối quan hệ. Tránh hành xử quá bốc đồng. Tập trung năng lượng. Sẵn sàng đón nhận sự thay đổi, ngày của bạn có thể không diễn ra như kế hoạch.';
+        case 6:
+            return 'Quan tâm đến gia đình, vật nuôi và ngôi nhà của bạn. Trang trí và làm đẹp xung quanh. Hãy lưu tâm đến ý kiến mạnh mẽ của riêng bạn. Tập trung vào các vấn đề trong nhà và trao đi năng lượng chăm sóc, nuôi dưỡng của mình. Gặp bác sĩ trị liệu, làm tóc, học thêm điều gì đó mới.';
+        case 7:
+            return 'Đây là thời gian cho sự yên tĩnh. Nghỉ ngơi và nhìn nhận lại mọi thứ. Suy ngẫm. Dành thời gian ở ngoài trời, gần với thiên nhiên hoặc đọc sách. Bạn có thể cảm thấy muốn ở một mình. Hãy tiên chăm sóc bản thân trong ngày này.';
+        case 8:
+            return 'Quản lý tiền của bạn, yêu cầu tăng lương, thu nợ, thanh toán hóa đơn, trả phí. Hãy cẩn thận để không lặp lại bài học hoặc sai lầm. Chú tâm đến công việc để tiến bộ và thành công. Không có bài học Nghiệp trong ngày này. Bạn có thể gặp vấn đề với chính quyền.';
+        case 9:
+            return 'Kết thúc mọi thứ. Hãy giải phóng và bao dung. Thực hiện những việc làm tử tế ngẫu nhiên. Cho đi một thứ gì đó. Hoàn thiện các dự án và hoàn tất các chi tiết dang dở.';
         default:
             break;
     }
@@ -277,9 +304,17 @@ console.log('Tuổi hiện tại:', tuoiHienTai);
 console.log('Rung Động Tuổi:', rungDongTuoi);
 
 // Tháng cá nhân = Năm Cá Nhân + Tháng Hiện tại
+console.log('Tháng Cá Nhân: ', sum([namCaNhan + currentMonth]));
 for (i = 1; i <= 12; i++) {
-    console.log(`\nTháng  ${i}/${currentYear}  => Tháng cá nhân ${sum([namCaNhan + i])}`);
-    if (i === currentMonth) console.log(`*** Lý giải ${i}/${currentYear}: ${lyGiaiThangCaNhan(sum([namCaNhan + i]))}`);
-    if (i === currentMonth + 1) console.log(`Lý giải ${i}/${currentYear}: ${lyGiaiThangCaNhan(sum([namCaNhan + i]))}`);
-    if (i === currentMonth + 2) console.log(`Lý giải ${i}/${currentYear}: ${lyGiaiThangCaNhan(sum([namCaNhan + i]))}`);
+    // console.log(`\nTháng  ${i}/${currentYear}  => Tháng cá nhân ${sum([namCaNhan + i])}`);
+    if (i === currentMonth)
+        console.log(`\n*** Lý giải ${i}/${currentYear}: ${lyGiaiThangCaNhan(sum([namCaNhan + i]))}`);
+    if (i === currentMonth + 1)
+        console.log(`\nLý giải ${i}/${currentYear}: ${lyGiaiThangCaNhan(sum([namCaNhan + i]))}`);
+    if (i === currentMonth + 2)
+        console.log(`\nLý giải ${i}/${currentYear}: ${lyGiaiThangCaNhan(sum([namCaNhan + i]))}`);
 }
+
+// Ngày cá nhân = Tháng cá nhân + ngày theo lịch
+const ngayCaNhan = sum([namCaNhan, currentMonth, currentDay]);
+console.log('\nNgày Cá Nhân:', ngayCaNhan, ' => Lý giải:', lyGiaiNgayCaNhan(ngayCaNhan), '\n');
